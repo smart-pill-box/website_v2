@@ -1,0 +1,16 @@
+<svg width="32" xmlns="http://www.w3.org/2000/svg" height="32" id="screenshot-2262821d-f3fe-80db-8004-c5ff3be96f62" viewBox="686 2198 32 32" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+  <g id="shape-2262821d-f3fe-80db-8004-c5ff3be96f62" data-testid="plus-svgrepo-com (1)" style="fill:#000000" width="800" height="800" rx="0" ry="0">
+    <g id="shape-2262821d-f3fe-80db-8004-c5ff3be96f63" data-testid="base-background" style="display:none">
+      <g class="fills" id="fills-2262821d-f3fe-80db-8004-c5ff3be96f63">
+        <rect rx="0" ry="0" x="685.9999999999999" y="2198.0000000000005" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" width="32.000000000000114" height="32" fill="none" style="fill:none">
+        </rect>
+      </g>
+    </g>
+    <g id="shape-2262821d-f3fe-80db-8004-c5ff3be96f64" data-testid="svg-path">
+      <g class="fills" id="fills-2262821d-f3fe-80db-8004-c5ff3be96f64">
+        <path d="M714.000,2210.000L706.000,2210.000L706.000,2202.000C706.000,2199.790,704.209,2198.000,702.000,2198.000C699.791,2198.000,698.000,2199.790,698.000,2202.000L698.000,2210.000L690.000,2210.000C687.791,2210.000,686.000,2211.790,686.000,2214.000C686.000,2216.210,687.791,2218.000,690.000,2218.000L698.000,2218.000L698.000,2226.000C698.000,2228.210,699.791,2230.000,702.000,2230.000C704.209,2230.000,706.000,2228.210,706.000,2226.000L706.000,2218.000L714.000,2218.000C716.209,2218.000,718.000,2216.210,718.000,2214.000C718.000,2211.790,716.209,2210.000,714.000,2210.000Z" fill-rule="evenodd" style="fill:#49e79b;fill-opacity:1">
+        </path>
+      </g>
+    </g>
+  </g>
+</svg>

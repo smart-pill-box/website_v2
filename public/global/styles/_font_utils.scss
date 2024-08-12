@@ -1,0 +1,12 @@
+@use 'sass:map';
+
+$ff-default: 'Rubik';
+$ff-logo: 'Krona One';
+
+@function google-font($family, $weights: ()) {
+  $family-url: unquote('https://fonts.googleapis.com/css2?family=' + $family);
+  @if length($weights) > 0 {
+    $family-url: $family-url + ':wght@' + join($weights, ';');
+  }
+  @return $family-url;
+}

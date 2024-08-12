@@ -1,0 +1,65 @@
+$clr-accent-green: #49e79b;
+$clr-accent-green-100: rgba(74, 231, 155, 0.2);
+$clr-accent-green-800: rgba(74, 231, 155, 0.85);
+$clr-accent-brow: #e7a966;
+
+$clr-basic-400: #505050;
+$clr-basic-200: #818181;
+$clr-neutral-400: #f8fff7;
+$clr-neutral-800: #ffffff;
+
+$fs-300: 16px;
+$fs-400: 24px;
+$fs-500: 32px;
+$fs-600: 40px;
+
+$fw-300: 300;
+$fw-400: 400;
+
+.clr-accent-green {
+    color: $clr-accent-green;
+}
+
+.clr-accent-brow {
+    color: $clr-accent-brow;
+}
+
+.clr-basic-400 {
+    color: $clr-basic-400;
+}
+
+.clr-basic-200 {
+    color: $clr-basic-200;
+}
+
+.clr-neutral-400 {
+    color: $clr-neutral-400;
+}
+
+.clr-neutral-800 {
+    color: $clr-neutral-800;
+}
+
+.fs-300 {
+    font-size: $fs-300;
+}
+
+.fs-400 {
+    font-size: $fs-400;
+}
+
+.fs-500 {
+    font-size: $fs-500;
+}
+
+.fs-600 {
+    font-size: $fs-600;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}

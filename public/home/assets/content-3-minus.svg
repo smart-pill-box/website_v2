@@ -1,0 +1,16 @@
+<svg width="32" xmlns="http://www.w3.org/2000/svg" height="32" id="screenshot-2262821d-f3fe-80db-8004-c5ff54a479e4" viewBox="686.5 2520 32 32" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+  <g id="shape-2262821d-f3fe-80db-8004-c5ff54a479e4" data-testid="minus-svgrepo-com (1)" style="fill:#000000" width="800" height="800" rx="0" ry="0">
+    <g id="shape-2262821d-f3fe-80db-8004-c5ff54a51abf" data-testid="base-background" style="display:none">
+      <g class="fills" id="fills-2262821d-f3fe-80db-8004-c5ff54a51abf">
+        <rect rx="0" ry="0" x="686.4999999999999" y="2519.9999999999995" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" width="32" height="32" fill="none" style="fill:none">
+        </rect>
+      </g>
+    </g>
+    <g id="shape-2262821d-f3fe-80db-8004-c5ff54a5659c" data-testid="svg-path">
+      <g class="fills" id="fills-2262821d-f3fe-80db-8004-c5ff54a5659c">
+        <path d="M714.500,2532.000L690.500,2532.000C688.291,2532.000,686.500,2533.790,686.500,2536.000C686.500,2538.210,688.291,2540.000,690.500,2540.000L714.500,2540.000C716.709,2540.000,718.500,2538.210,718.500,2536.000C718.500,2533.790,716.709,2532.000,714.500,2532.000Z" fill-rule="evenodd" style="fill:#e7a966;fill-opacity:1">
+        </path>
+      </g>
+    </g>
+  </g>
+</svg>
