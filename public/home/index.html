@@ -25,13 +25,13 @@
 
                 <ul class="span-4 mb-span-8 mb-3">
                     <li>
-                        <a href=".">SOBRE</a>
+                        <a href="./sobre">SOBRE</a>
                     </li>
                     <li>
-                        <a href=".">CONTATO</a>
+                        <a href="./contato">CONTATO</a>
                     </li>
                     <li>
-                        <a href=".">EU QUERO</a>
+                        <a id="eu-quero-header">EU QUERO</a>
                     </li>
                 </ul>
             </div>
@@ -120,11 +120,38 @@
             <h2 id="interessou" class="fw-300 fs-400"> Se interessou ? </h2>
             <div class="span-6 mb-span-8 flex-center-responsive-reverse options-container">
                 <a href="." class="fs-200 saber-mais"> Quero saber mais </a>
-                <a href=".">
-                    <button class="span-3 mb-span-6 fs-500">
+                <a>
+                    <button id="btn-interesse" class="span-3 mb-span-6 fs-500">
                         Tenho interesse
                     </button>
                 </a>
+            </div>
+        </div>
+
+        <div id="modal-interesse" class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-container span-8 m-5">
+                <p class="clr-neutral-400 fs-300 fw-300 mb-4"> Obrigado pelo seu interesse pela MyMedSafe, este projeto está quase pronto, porém ainda está em desenvolvimento. </p>
+                <p class="clr-neutral-400 fs-300 fw-300"> Deixe seu email para ficar sabendo quando o projeto estiver pronto, ou, participe de nossa pré venda, garantindo 40%  + 20 R$ de desconto no lançamento </p>
+
+                <div id="container-options" class="mt-5 flex-column-center">
+                    <div class="container-pre-venda">
+                        <a>
+                            <button id="btn-pre-venda" class="clr-neutral-400 fs-400 fw-300 span-2 mb-span-4">
+                                Participe da pré venda
+                            </button>
+                        </a>
+                        <p class="clr-neutral-400 fs-400 fw-300"> </p>
+                    </div>
+
+                    <p> ou </p>
+
+                    <form id="email-form" class="flex-row-center">
+                        <input type="email" id="user-email" name="user-email" required placeholder="Seu email" class="email-input">
+                        <br><br>
+                        <button type="submit" id="submit-email" class="clr-neutral-800"> Enviar </button>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -133,5 +160,7 @@
 
             </div>
         </footer>
+
+        <script src="./home/scripts/script.js"></script>
     </body>
 </html>

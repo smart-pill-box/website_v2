@@ -8,6 +8,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'home', 'index.html'));
 });
 
+app.get('/sobre', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'about', 'index.html'));
+});
+
+
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

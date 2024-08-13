@@ -1,0 +1,65 @@
+@use "../../global/styles/global_style" as *;
+
+.font-krona {
+    font-family: $ff-logo;
+}
+
+header {
+    margin-top: 12px;
+    @include on-desktop {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+
+    background-color: $clr-neutral-800;
+    
+    #header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #header-logo-image {
+        width: 60px;
+        height: auto;
+    }
+    
+    #header-logo-text-container {
+        width: 16px;
+        font-family: $ff-logo;
+    }
+
+    #eu-quero-header {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+            position: relative;
+        }
+    
+        a::after {
+            content: ""; /* Insert an empty string */
+            position: absolute; /* Position it absolutely */
+            left: 0; /* Align it to the left of the link */
+            bottom: -2px; /* Position it just below the text */
+            width: 100%; /* Full width of the link */
+            height: 2px; /* Height of the line */
+            background-color: $clr-accent-green; /* Color of the line */
+            transform: scaleX(0); /* Start with the line hidden */
+            transform-origin: bottom right; /* Scale from the right */
+            transition: transform 0.3s ease; /* Smooth transition effect */
+        }
+    
+        a:hover::after {
+            transform: scaleX(1); /* Show the line on hover */
+            transform-origin: bottom left; /* Scale from the left */
+        }
+    }
+}

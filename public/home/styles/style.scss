@@ -29,6 +29,12 @@ header {
         width: 16px;
         font-family: $ff-logo;
     }
+
+    #eu-quero-header {
+        &:hover {
+            cursor: pointer;
+        }
+    }
     
     ul {
         display: flex;
@@ -210,5 +216,96 @@ header {
     #interessou {
         position: absolute;
         top: 24px;
+    }
+}
+
+#modal-interesse {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: hidden; /* Disable scroll */
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+
+    &.show {
+        display: flex; /* Show the modal */
+        
+        .modal-container {
+            transform: translateY(0); /* Slide up to the middle */
+        }
+    }
+
+    .modal-container {
+        position: relative;
+        background-color: $clr-accent-green;
+        width: 70%;
+        max-width: 600px;
+        padding: 20px;
+        border-radius: 10px;
+        transform: translateY(100vh); /* Start below the screen */
+        transition: transform 0.5s ease-in-out; /* Animation */
+    }
+
+    .close-modal {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+
+        &:hover, &:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+
+
+    #btn-pre-venda {
+        background-color: $clr-accent-brow;
+        border: none;
+        border-radius: 12px;
+        padding: 8px;
+
+        &:hover {
+            background-color: $clr-accent-brow-800;
+            cursor: pointer;
+        }
+    }
+
+    #container-options {
+        gap: 24px
+    }
+
+    #email-form {
+        position: relative;
+        gap: 4px;
+
+        input {
+            text-align: center;
+            height: 20px;
+        }
+        button {
+            background-color: $clr-accent-brow;
+            border: none;
+            border-radius: 4px;
+            padding: 4px;
+
+            &:hover {
+                background-color: $clr-accent-brow-800;
+                cursor: pointer;
+            }
+
+            @include on-desktop() {
+                position: absolute;
+                height: 24px;
+                right: -80px;
+                width: 60px;
+            }
+        }
     }
 }
